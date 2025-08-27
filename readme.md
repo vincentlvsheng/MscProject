@@ -6,19 +6,19 @@ This project implements and studies various optimization algorithms and quantiza
 
 ## Key Features
 
-### 🚀 Optimization Algorithms
+###  Optimization Algorithms
 - **Custom SGD**: Enhanced SGD optimizer supporting both standard gradient descent (GD) and exponential gradient (EG)
 - **AdamWeg**: Hybrid optimizer combining Adam and exponential gradient
 - **AdamGD**: Hybrid optimizer combining Adam and gradient descent  
 - **LNS_Madam**: Madam optimizer based on logarithmic number system
 
-### 🔧 Quantization Methods
+###  Quantization Methods
 - **INT4 Quantization**: Symmetric and asymmetric 4-bit integer quantization
 - **INT8 Quantization**: 8-bit integer quantization
 - **LNS Quantization**: 4-bit and 8-bit logarithmic number system quantization
 - **Mixed Precision**: Support for different precision mixed quantization strategies
 
-### 📊 Model Architectures
+### Model Architectures
 - **CNN Model**: Convolutional neural network for image classification
 - **MLP Model**: Multi-layer perceptron model
 - **Datasets**: MNIST and Fashion-MNIST
@@ -42,8 +42,8 @@ MScProject/
 ## Installation and Usage
 
 ### Requirements
-- Python 3.8+
-- PyTorch 1.9+
+- Python 3.12+
+- PyTorch 2.5+
 - NumPy, Matplotlib, Seaborn
 - CUDA support (optional, for GPU acceleration)
 
